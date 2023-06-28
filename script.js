@@ -1,3 +1,8 @@
+const emptySlotsCountElement = document.querySelector('.empty-slots-count');
+const parkingSlotsTab = document.getElementById('parkingSlotsTab');
+const manageSlotsTab = document.getElementById('manageSlotsTab');
+const manageSlotsContainer = document.getElementById('manageSlotsContainer');
+
 let emptySlotsCount = 30;
 const totalSlots = 30;
 const bookedSlots = [];
